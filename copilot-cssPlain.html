@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout - Part 2</title>
+    <link rel="stylesheet" href="Part2.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <!-- Top Row: 4 boxes at 25% each -->
+            <div class="row top-row">
+                <div class="box box-25"></div>
+                <div class="box box-25"></div>
+                <div class="box box-25"></div>
+                <div class="box box-25"></div>
+            </div>
+
+            <!-- Middle Row: 2 columns (33% + 66%) -->
+            <div class="row middle-row">
+                <div class="left-column">
+                    <div class="box box-left-top"></div>
+                    <div class="box box-left-bottom"></div>
+                </div>
+                <div class="right-column">
+                    <div class="box"></div>
+                </div>
+            </div>
+
+            <!-- Bottom Row: 66% + 33% -->
+            <div class="row bottom-row">
+                <div class="box-bottom-left">
+                    <div class="box"></div>
+                </div>
+                <div class="box-bottom-right">
+                    <div class="box"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="sidebar">
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+</body>
+</html>

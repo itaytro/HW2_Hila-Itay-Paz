@@ -1,0 +1,26 @@
+*, *::before, *::after {
+			box-sizing: border-box;
+		}
+
+		body {
+			padding: 10px;
+		}
+
+		.red-border {
+			border: 3px solid red;
+		}
+
+		.h-standard {
+			height: 150px;
+		}
+
+		.h-half {
+			height: 70px;
+		}
+
+		@media (max-width: 750px) {
+			.stack-750 {
+				flex: 0 0 100%;
+				max-width: 100%;
+			}
+		}
