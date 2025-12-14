@@ -1,0 +1,70 @@
+/* הגדרות בסיסיות לכל העמוד */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* רקע אפור בהיר */
+    direction: rtl; /* תמיכה בעברית - מימין לשמאל */
+    margin: 0;
+    padding-top: 50px;
+}
+
+/* מיכל מרכזי לתוכן */
+.container {
+    /* ממקם את המיכל במרכז העמוד */
+    width: 450px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* עיצוב כותרת ראשית וממרכז אותה */
+h1 {
+    color: #333;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: David;
+    font-size: 50px;
+}
+h2 {
+    color: #333;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: David;
+    font-size: 24px;
+}
+
+/* מיכל הלינקים (לא משתמשים ב-Flex) */
+.links-menu {
+    /* המלבנים יהיו מיושרים למרכז ה-container */
+    text-align: center; 
+}
+
+/* עיצוב המלבן הבודד (הלינק) */
+.menu-item {
+    display: block; /* גורם ללינק להתנהג כבלוק, וזה יסדר אותם אחד מתחת לשני */
+    width: 270px; /* רוחב קבוע למלבן */
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    
+    /* ממקם את הלינק במרכז ה-links-menu */
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* עיצוב מראה המלבן */
+    background-color:rgb(0, 47, 255); /* צבע כחול בהיר (כמו בתמונה) */
+    color: white; /* טקסט לבן */
+    text-decoration: none; /* הסרת קו תחתון מלינקים */
+    border: 1px solid #051958;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    /* מעבר חלק עבור אפקט הריחוף */
+    transition: background-color 0.3s ease;
+    
+    /* יישור טקסט בתוך המלבן - מימין לשמאל */
+    text-align: right;
+}
+
+/* אפקט ריחוף (Hover) - שינוי צבע בלחיצה וריחוף */
+.menu-item:hover {
+    background-color: #6f42da; /* צבע כחול כהה יותר בריחוף */
+    border-color: #2b0b75;
+}
