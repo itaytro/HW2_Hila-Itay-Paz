@@ -17,14 +17,14 @@ body {
 
 /* עיצוב כותרת ראשית וממרכז אותה */
 h1 {
-    color: #333;
+    color: black;
     margin-bottom: 40px;
     text-align: center;
     font-family: David;
     font-size: 50px;
 }
 h2 {
-    color: #333;
+    color: black;
     margin-bottom: 40px;
     text-align: center;
     font-family: David;
@@ -67,4 +67,5 @@ h2 {
 .menu-item:hover {
     background-color: #6f42da; /* צבע כחול כהה יותר בריחוף */
     border-color: #2b0b75;
+
 }
